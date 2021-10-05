@@ -174,7 +174,29 @@ body{
 #register:hover{
     background-color:#00a5ad;
 }
-
+@media screen and (max-width:1296px) {
+    .nav h2{
+        margin-right: 35%;
+    }
+    .footer div{
+        width:33%;
+    }
+}
+@media screen and (max-width:1100px) {
+    .nav h2{
+        margin-right:30%;
+    }
+}
+@media screen and (max-width:1080px){
+    .menu div{
+        height:330px;
+    }
+}
+@media screen and (max-width:1065px){
+    .address a{
+        margin:10px;
+    }
+}
 
 
 
